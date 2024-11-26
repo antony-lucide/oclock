@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minuteur Interactif</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Minuteur Interactif</h1>
+
+        <!-- Contrôles -->
+        <div class="timer-controls">
+            <button id="decrease-minutes">-</button>
+            <input type="number" id="timer-input" value="5" min="0" max="60">
+            <button id="increase-minutes">+</button>
+        </div>
+
+        <!-- Affichage du minuteur -->
+        <div class="timer-display" id="timer-display">05:00</div>
+
+        <!-- Bouton Start/Stop -->
+        <button id="toggle-timer">Démarrer</button>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
